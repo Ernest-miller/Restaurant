@@ -1,0 +1,171 @@
+:root {
+    --primary : #f02d3a;
+    --top-nav : #df4733;
+    --main-nav : #d63230;
+    --white : #ffffff;
+    --black : #00000000;
+    --worksans : 'work sans' sans-serif;
+    --tan : #eae2b7;
+    --dark-tan: #eddea4;
+}
+
+* { box-sizing: border-box; }
+
+/*======================================================================================================================*/
+
+body {
+    margin: 0px;
+    scroll-behavior: smooth;
+    background: var(--tan);
+}
+
+/* ==================================================================================================================== */
+.inner1 {
+    background-color: var(--main-nav);
+    padding: 18px;
+}
+
+.social ul {
+    justify-content: flex-end;
+}
+.img-fluid {padding-right: 20px;}
+
+
+@media (max-width: 767px) {
+    .social {
+        justify-content: center;
+    }
+}
+
+.inner2 {
+    background: var(--primary);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-header {
+    font-family: var(--workSans);
+    font-weight: 700;
+    color: var(--white);
+}
+
+@media (max-width: 767px) {
+    .main-header {
+        text-align: center;
+    }
+}
+
+.main-nav li {
+    text-transform: uppercase;
+    font-family: var(--worksans);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* when you hover over the .items they change their color to white */
+.main-nav li  a:hover {
+    padding: 6px 6px;
+    background: var(--white);
+    border-radius: 5px;
+}
+
+.main-nav a:hover{
+    color: #000;
+    text-decoration: none;
+}
+
+.main-nav a {
+    color: var(--blacks);
+}
+
+/* top quality/ search-box background */
+.inner3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: var(--tan);
+}
+
+.slogan {
+    width:40%;
+    font-family: var(--courier);
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* SALAD */
+.jumbo-header {
+    text-align: center;
+    color: var(--white);
+    font-size: 100px;
+    font-weight: 700;
+}
+/* of the day */
+.small {
+    position: relative;
+    top: 25px;
+    right: 200px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+/* what's inside */
+.promo-box {
+    background: blanchedalmond;
+    opacity: 0.6;
+    width: 200px;
+}
+/* arrows */
+.arrows {
+    float: right;
+}
+.clear {clear: both;}
+
+
+.offerheader {
+    text-size-adjust: 150px;
+}
+
+
+.hero {background-color: greenyellow;}
+/* 
+.feature {background-color: yellow;}
+
+.offers {background-color: green;}
+ */
+
+.clients {
+    background-color: lightgray;
+    height: 70px;
+}
+
+.client {position: relative;
+    top: 20px;
+}
+
+.info {
+    background-color: darkgrey;
+}
+
+.footer-h2 {
+    text-transform: uppercase;
+    text-size-adjust: 150%;
+}
+
+.colophon {
+    background-color: grey;
+}
+
+.feature {
+    background: var(--dark-tan);
+}
+
+.product {
+    color: var(--top-nav);
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.reservations {
+    text-align: center;
+}
+
